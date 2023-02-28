@@ -49,6 +49,24 @@ p {
 
 .about {
   color: white;
+  text-align: left;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.about2 {
+  color: black;
+  text-align: left;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.about3 {
+  color: white;
   text-align: center;
   word-spacing: 2px;
   letter-spacing: 1px;
