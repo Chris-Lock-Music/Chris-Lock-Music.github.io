@@ -46,6 +46,24 @@ p {
   font-family: helvetica, arial, sans-serif;
 }
 
+p2 {
+  color: grey;
+  text-align: left;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-weight: 150;
+  font-family: helvetica, arial, sans-serif;
+}
+
+p3 {
+  color: lightblue;
+  text-align: left;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-weight: 150;
+  font-family: helvetica, arial, sans-serif;
+}
+
 
 .about {
   color: white;
