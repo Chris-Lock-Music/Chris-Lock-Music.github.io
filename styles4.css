@@ -8,18 +8,20 @@ h1 {
     font-family: monospace;
     color: #FF0000;
     position: relative;
+    /*
     margin-top: 19%;
     margin-bottom: 30%;
     margin-right: 5%;
     margin-left: 5%;
+    */
 }
 
 
 a {
     color: white;
     text-align: center;
-    word-spacing: 2px;
-    letter-spacing: 5px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
     font-weight: 300;
     /* font-family: monospace; */
     font-family: helvetica, arial, sans-serif;
@@ -27,10 +29,10 @@ a {
 }
 
 p {
-  color: white;
+  color: #DBDBDB;
   text-align: center;
   word-spacing: 2px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-weight: 300;
   /* font-family: monospace; */
   font-family: helvetica, arial, sans-serif;
@@ -76,7 +78,7 @@ a:hover {
   }
 
   .hidden {
-    color: black;
+    color: #0F151A;
     text-align: left;
     word-spacing: 2px;
     letter-spacing: 1px;
@@ -88,7 +90,7 @@ a:hover {
     border-style: none;
     border-width: 20px
     border-color: white;
-    background-color: black;
+    background-color: #0F151A;
   }
 
 
