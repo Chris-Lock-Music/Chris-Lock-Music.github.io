@@ -1,42 +1,41 @@
 body {
-    background-color: white;
+    background-color: black;
     position: absolute;
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
     letter-spacing: 5px;
     text-align: center;
     margin: 20px;
     text-decoration: none;
     font-family: times;
-    color: black;
-    position: relative;
-}
-
-h2 {
-    font-size: 10px;
-    font-weight: lighter;
-    letter-spacing: 7px;
-    text-align: center;
-    margin: 20px;
-    text-decoration: none;
-    font-family: times;
-    color: black;
+    color: white;
     position: relative;
 }
 
 
 a {
-    color: black;
-    text-align: left;
+    color: white;
+    text-align: center;
     word-spacing: 2px;
     letter-spacing: 1px;
     font-weight: 200;
     font-family: times;
     /* font-family: helvetica, arial, sans-serif; */
     text-decoration: none;
+}
+
+p {
+  color: white;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-family: times;
+  /* font-family: helvetica, arial, sans-serif; */
+  text-decoration: none;
 }
 
 a:hover {
@@ -51,15 +50,15 @@ a:hover {
   }
 
   .space1 {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    border: solid white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border: solid black;
     width: 50%;
     padding: 5px;
   }
 
   .about {
-    color: black;
+    color: white;
     text-align: left;
     word-spacing: 2px;
     letter-spacing: 1px;
@@ -68,20 +67,48 @@ a:hover {
   }
 
   .link {
-    color: black;
-    text-align: left;
-    word-spacing: 2px;
-    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    word-spacing: 1px;
+    font-weight: 200;
+    font-family: monospace;
+  }
+
+  .greylink {
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+    word-spacing: 1px;
     font-weight: 200;
     font-family: monospace;
   }
 
   .hidden {
-    color: white;
+    color: black;
     text-align: left;
     word-spacing: 2px;
     letter-spacing: 1px;
     font-weight: 200;
+    font-family: helvetica, arial, sans-serif;
+  }
+
+  .massive{
+    color: blue;
+    font-size: 70px;
+    text-align: left;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-family: helvetica, arial, sans-serif;
+  }
+
+  .massive2{
+    color: red;
+    font-size: 70px;
+    text-align: left;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 600;
     font-family: helvetica, arial, sans-serif;
   }
 
@@ -147,8 +174,20 @@ h2 {
     margin: 20px;
     text-decoration: none;
     font-family: helvetica, arial, sans-serif;
-    color: black;
+    color: white;
     position: relative;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: light;
+  letter-spacing: 5px;
+  text-align: left;
+  margin: 20px;
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif;
+  color: lightgrey;
+  position: relative;
 }
 
 .center {
@@ -157,3 +196,27 @@ h2 {
     margin-right: auto;
     width: 60%;
   }
+
+.landing {
+  font-size: 50px;
+  font-weight: light;
+  letter-spacing: 5px;
+  text-align: left;
+  margin: 20px;
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif;
+  color: lightgrey;
+  position: relative;
+}
+
+
+.left {
+  color: white;
+  text-align: left;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-family: times;
+  /* font-family: helvetica, arial, sans-serif; */
+  text-decoration: none;
+}

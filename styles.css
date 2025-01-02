@@ -1,233 +1,222 @@
 body {
-    background-color: black;
+    background-color: white;
     position: absolute;
 }
 
-
 h1 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
-    letter-spacing: 15px;
+    letter-spacing: 5px;
     text-align: center;
     margin: 20px;
     text-decoration: none;
-    font-family: helvetica, arial, sans-serif;
-    color: white;
+    font-family: times;
+    color: black;
     position: relative;
-}
-
-
-h2 {
-    text-align: center;
-    margin: 10px;
-    word-spacing: 20px;
-}
-
-
-h3 {
-    font-size: 21px;
-    font-weight: normal;
-    letter-spacing: 1px;
-    text-align: center;
-    margin: 10px;
-    text-decoration: none;
-    font-family: helvetica, arial, sans-serif;
-    color: white;
-    position: relative;
-}
-
-
-p {
-  color: white;
-  text-align: left;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  font-weight: 200;
-  font-family: helvetica, arial, sans-serif;
-}
-
-p2 {
-  color: grey;
-  text-align: left;
-  word-spacing: 1px;
-  letter-spacing: 0.5px;
-  font-weight: 150;
-  font-family: helvetica, arial, sans-serif;
-}
-
-p3 {
-  color: lightblue;
-  text-align: left;
-  word-spacing: 1px;
-  letter-spacing: 0.5px;
-  font-weight: 150;
-  font-family: helvetica, arial, sans-serif;
-}
-
-
-.about {
-  color: white;
-  text-align: left;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  font-weight: 200;
-  font-family: helvetica, arial, sans-serif;
-}
-
-.about2 {
-  color: black;
-  text-align: left;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  font-weight: 200;
-  font-family: helvetica, arial, sans-serif;
-}
-
-.about3 {
-  color: white;
-  text-align: center;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  font-weight: 200;
-  font-family: helvetica, arial, sans-serif;
-}
-
-
-.stealth {
-  color: black;
-  text-align: left;
-  word-spacing: 1px;
-  letter-spacing: 1px;
-  font-weight: 100;
-  font-family: helvetica, arial, sans-serif;
-}
-
-/*Taken from www.w3schools.com/howto/howto_css_image_center.asp*/
-.center {
-  margin: 10px;
-  width: 50%;
-  border: 1px solid black;
-  padding: 10px;
-}
-
-
-.center-small {
-  margin: 10px;
-  width: 50%;
-  border: 1px solid black;
-}
-
-
-.smalllink {
-  color: white;
-  text-align: left;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  font-weight: lighter;
-  text-decoration: underline;
 }
 
 
 a {
-  font-size: 15px;
-  font-weight: lighter;
-  letter-spacing: 4px;
-  word-spacing: 25px;
+    color: black;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-family: times;
+    /* font-family: helvetica, arial, sans-serif; */
+    text-decoration: none;
+}
+
+p {
+  color: black;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-family: times;
+  /* font-family: helvetica, arial, sans-serif; */
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .space1 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border: solid white;
+    width: 50%;
+    padding: 5px;
+  }
+
+  .about {
+    color: black;
+    text-align: left;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-family: helvetica, arial, sans-serif;
+  }
+
+  .link {
+    color: black;
+    text-align: center;
+    word-spacing: 1px;
+    font-weight: 200;
+    font-family: monospace;
+  }
+
+  .greylink {
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+    word-spacing: 1px;
+    font-weight: 200;
+    font-family: monospace;
+  }
+
+  .hidden {
+    color: white;
+    text-align: left;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-family: helvetica, arial, sans-serif;
+  }
+
+  .massive{
+    color: blue;
+    font-size: 70px;
+    text-align: left;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-family: helvetica, arial, sans-serif;
+  }
+
+  .massive2{
+    color: red;
+    font-size: 70px;
+    text-align: left;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-family: helvetica, arial, sans-serif;
+  }
+
+    audio {
+      width: 100%;
+    }
+
+    audio::-webkit-media-controls-panel{
+      background-color: white;
+    }
+
+    audio::-webkit-media-controls-play-button{
+      background-color: white;
+      border-radius: 20%;
+    }
+
+    audio::-webkit-media-controls-current-time-display{
+      color: black;
+    }
+
+    audio::-webkit-media-controls-time-remaining-display{
+      color: black;
+    }
+
+    audio::-webkit-media-controls-timeline{
+      color: black;
+    }
+
+    audio::-webkit-media-controls-volume-slider{
+      color: black;
+    }
+
+    audio::-webkit-media-controls-time-mute-button{
+      color: black;
+    }
+
+
+
+
+
+
+
+
+  /*
+font-size: 20px;
+font-weight: lighter;
+letter-spacing: 5px;
+text-align: center;
+margin: 20px;
+text-decoration: none;
+font-family: times;
+color: black;
+position: relative;
+padding: 30px;
+*/
+
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    font-family: helvetica, arial, sans-serif;
+    color: black;
+    position: relative;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: light;
+  letter-spacing: 5px;
+  text-align: left;
+  margin: 20px;
   text-decoration: none;
   font-family: helvetica, arial, sans-serif;
-  color: grey;
-
+  color: lightgrey;
+  position: relative;
 }
 
-
-.space1 {
-  border-top: 1px solid black;
-  border-bottom: 1px solid white;
-  border: solid black;
-  width: 50%;
-  padding: 5px;
-}
-
-
-.space2 {
-  border-top: 1px solid black;
-  border-bottom: 1px solid white;
-  border: solid black;
-  width: 50%;
-  padding: 15px;
-}
-
-
-.space3 {
-  border-top: 0px solid black;
-  border-bottom: 1px solid grey;
-  border: solid black;
-  width: 50%;
-  padding: 15px;
-}
-
-/*taken from https://www.w3schools.com/howto/howto_css_image_center.asp*/
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
 
-/*taken from https://www.w3schools.com/howto/howto_css_image_center.asp*/
-.center2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
-}
-
-.center3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 28%;
-}
-
-i {
-  color: white;
-  text-align: center;
-  animation: color-change 7s infinite;
-  animation-delay: 0s;
-}
-
-i1 {
-  color: white;
-  text-align: center;
-  animation: color-change 7s infinite;
-  animation-delay: 1s;
-}
-
-i2 {
-  color: white;
-  text-align: center;
-  animation: color-change 7s infinite;
-  animation-delay: 2s;
-}
-
-i3 {
-  color: white;
-  text-align: center;
-  animation: color-change 7s infinite;
-  animation-delay: 3s;
-}
-
-i4 {
-  color: white;
-  text-align: center;
-  animation: color-change 7s infinite;
-  animation-delay: 4s;
+.landing {
+  font-size: 50px;
+  font-weight: light;
+  letter-spacing: 5px;
+  text-align: left;
+  margin: 20px;
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif;
+  color: lightgrey;
+  position: relative;
 }
 
 
-/*taken from https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3*/
-@keyframes color-change {
-  0% { color: white; }
-  20% { color: black; }
-  100% { color: white; }
+.left {
+  color: black;
+  text-align: left;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-family: times;
+  /* font-family: helvetica, arial, sans-serif; */
+  text-decoration: none;
 }
